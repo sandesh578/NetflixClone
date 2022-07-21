@@ -1,0 +1,24 @@
+{
+  "name": "netflix",
+  "version": "1.0.0",
+  "description": "Mern Stack neflix website",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sandesh Parajuli",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "crypto.js": "^2.0.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http-terminator": "^3.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "log4js": "^6.3.0",
+    "mongoose": "^6.1.1",
+    "nodemon": "^2.0.15"
+  }
+}
